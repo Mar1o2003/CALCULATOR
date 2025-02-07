@@ -7,7 +7,7 @@
 ### Локальная установка
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/Erefef/CALC_Game.git
+   git clone https://github.com/Mar1o2003/CALCULATOR.git
    cd Game_name
 2. Установите зависимости через Composer:
     ```bash
@@ -30,7 +30,7 @@
 
 
 ## Ссылки
-- Packagist: [CALC Game](https://packagist.org/packages/erefef/php_tenyakshev_ma)
-- [Репозиторий на GitHub](https://github.com/Erefef/CALC_Game)
+- Packagist: [CALCULATOR Game](https://packagist.org/packages/mar1o2003/php_shokov_dr)
+- [Репозиторий на GitHub](https://github.com/Mar1o2003/CALCULATOR)
 - Автор: mar1o2003
 - Лицензия: MIT
