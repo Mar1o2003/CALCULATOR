@@ -1,28 +1,28 @@
 <?php return array(
     'root' => array(
-        'name' => 'erefef/php_tenyakshev_ma',
+        'name' => 'mar1o2003/php_shokov_dr',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '6b30f2f3757873c1b49498fdc40c2f4542dbe44d',
+        'reference' => 'b5b6af87c695138c6c8111a24565a1dc12091940',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'erefef/php_tenyakshev_ma' => array(
+        'mar1o2003/php_shokov_dr' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '6b30f2f3757873c1b49498fdc40c2f4542dbe44d',
+            'reference' => 'b5b6af87c695138c6c8111a24565a1dc12091940',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'wp-cli/php-cli-tools' => array(
-            'pretty_version' => 'v0.12.1',
-            'version' => '0.12.1.0',
-            'reference' => 'd1fe500378f53fb5ae1072c0daa77095c384a082',
+            'pretty_version' => 'v0.12.3',
+            'version' => '0.12.3.0',
+            'reference' => '1556134a2b22a09d96314693cf0abb67a15af410',
             'type' => 'library',
             'install_path' => __DIR__ . '/../wp-cli/php-cli-tools',
             'aliases' => array(),

@@ -2,8 +2,13 @@
 
 namespace Mar1o2003\CALCULATOR\View;
 
-function displayStartScreen()
+function displayQuestion($expression)
 {
-
-    echo "Welcome!\n";
+    echo "Вычисли выражение: $expression ";
 }
+
+function displayResult($message)
+{
+    echo "$message\n";
+}
+

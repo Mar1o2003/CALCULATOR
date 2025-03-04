@@ -4,23 +4,24 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit9e77d5f6b231d3ca901e81b57224cf55
+class ComposerStaticInit5a9a4d5757f076457cb73929f313ae6b
 {
     public static $files = array (
         'be01b9b16925dcb22165c40b46681ac6' => __DIR__ . '/..' . '/wp-cli/php-cli-tools/lib/cli/cli.php',
-        '3dc6458a26b933b2bc81ac045438e26b' => __DIR__ . '/../..' . '/src/Controller.php',
-        '0a2c4d57f12028f5e2acbbc97010e84e' => __DIR__ . '/../..' . '/src/View.php',
+        '170a97189882fcb6031a5a175adc44f9' => __DIR__ . '/../..' . '/src/Controller.php',
+        '1dc13e434480795195236590267dad77' => __DIR__ . '/../..' . '/src/View.php',
+        '53c11a9996c36f9819a176bb137b86bf' => __DIR__ . '/../..' . '/src/Database.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'E' => 
+        'm' => 
         array (
-            'Erefef\\CALC\\' => 12,
+            'mar1o2003\\CALCULATOR\\' => 21,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Erefef\\CALC\\' => 
+        'mar1o2003\\CALCULATOR\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -42,14 +43,12 @@ class ComposerStaticInit9e77d5f6b231d3ca901e81b57224cf55
 
     public static function getInitializer(ClassLoader $loader)
     {
-        return \Closure::bind(
-            function () use ($loader) {
-                $loader->prefixLengthsPsr4 = ComposerStaticInit9e77d5f6b231d3ca901e81b57224cf55::$prefixLengthsPsr4;
-                $loader->prefixDirsPsr4 = ComposerStaticInit9e77d5f6b231d3ca901e81b57224cf55::$prefixDirsPsr4;
-                $loader->prefixesPsr0 = ComposerStaticInit9e77d5f6b231d3ca901e81b57224cf55::$prefixesPsr0;
-                $loader->classMap = ComposerStaticInit9e77d5f6b231d3ca901e81b57224cf55::$classMap;
+        return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit5a9a4d5757f076457cb73929f313ae6b::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit5a9a4d5757f076457cb73929f313ae6b::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit5a9a4d5757f076457cb73929f313ae6b::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit5a9a4d5757f076457cb73929f313ae6b::$classMap;
 
-            }, null, ClassLoader::class
-        );
+        }, null, ClassLoader::class);
     }
 }

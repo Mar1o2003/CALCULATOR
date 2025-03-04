@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Erefef\\CALC\\' => array($baseDir . '/src'),
+    'mar1o2003\\CALCULATOR\\' => array($baseDir . '/src'),
 );
